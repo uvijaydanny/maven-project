@@ -1,7 +1,7 @@
 package com.example;
 
 /**
- * This is a class.danny comment
+ * This is a class.danny comment.
  */
 public class Greeter {
 
@@ -13,7 +13,8 @@ public class Greeter {
   }
 
  /**
- * This is a danny comment
+ * @param someone  is a danny comment
+ * @return greeting string
  */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
